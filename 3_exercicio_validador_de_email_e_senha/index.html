@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de registro</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Preencha</h1>
+
+    <form id="registration" onsubmit="return validateForm()">
+
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            <span id="name-error"></span>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <span id="email-error" class="error"></span>
+        </div>
+
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" required>
+            <span id="password-error" class="error"></span>
+        </div>
+
+        <div>
+            <input type="submit" value="Registrar">
+        </div>
+
+        <script src="index.js"></script>
+
+    </form>
+</body>
+
+</html>
