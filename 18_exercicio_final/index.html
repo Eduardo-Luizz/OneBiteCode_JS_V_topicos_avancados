@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main style="display: flex; gap: 4rem; margin: 1rem 2rem;">
+        <form>
+            <h2>Adicionar uma nova transação</h2>
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome">
+            <br>
+            <label for="value">Value:</label>
+            <br>
+            <input type="number" id="value" name="value" placeholder="Digite o valor em R$">
+            <br>
+            <br>
+            <button class="button">Salvar</button>
+        </form>
+        <div>
+            <h2>Transações já efetuadas</h2>
+            <section id="transactions"></section>
+        </div>
+        <div id="total-card">
+            <h2>Total de Transações</h2>
+            <p id="total-value"></p>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "transactions": [
+    {
+      "name": "teste total1",
+      "value": "100002",
+      "id": 1
+    },
+    {
+      "name": "outro",
+      "value": "2",
+      "id": 2
+    },
+    {
+      "name": "Outra transação",
+      "value": "-50000",
+      "id": 3
+    }
+  ]
+}
